@@ -1,3 +1,3 @@
-#FocusFlow App
+# FocusFlow App
 
-##Where you have a chance to manage your daily routin and tasks
+### Where you have a chance to manage your daily routin and tasks

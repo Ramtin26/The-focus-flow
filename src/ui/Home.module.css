@@ -5,7 +5,7 @@
       rgba(187, 166, 136, 0.7),
       rgba(36, 42, 46, 0.8)
     ),
-    url("./bg2.webp");
+    url("/bg2.webp");
   background-size: cover;
   background-position: center;
   display: flex;

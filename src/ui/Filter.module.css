@@ -1,0 +1,7 @@
+.filter {
+  display: flex;
+  gap: 1rem;
+  background-color: #d3d3d584;
+  border-radius: 7px;
+  padding: 1rem;
+}

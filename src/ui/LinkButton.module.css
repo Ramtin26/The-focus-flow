@@ -1,0 +1,15 @@
+.buttonLink {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-text);
+  transition: background-color 0.2s;
+
+  padding: 0.4rem 1rem;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.buttonLink:hover {
+  color: var(--color-text-light);
+  text-decoration-line: underline;
+}

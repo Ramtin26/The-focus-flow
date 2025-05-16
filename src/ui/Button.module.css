@@ -1,0 +1,154 @@
+.primary {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-family: inherit;
+  border-radius: 9999px;
+  background-color: var(--color-accent);
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-text);
+  transition: background-color 0.3s;
+  padding: 0.75rem 1.2rem;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+.primary:hover,
+.primary:focus {
+  background-color: var(--color-accent-light);
+  text-decoration: underline;
+}
+
+.primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--color-accent-light);
+  outline-offset: 2px;
+}
+
+.primary:disabled {
+  cursor: not-allowed;
+}
+
+/* Small button */
+.small {
+  display: inline-block;
+  font-size: 1rem;
+  font-family: inherit;
+  border-radius: 9999px;
+  background-color: var(--color-accent);
+  background-color: var(--color-muted-light);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text);
+  transition: background-color 0.3s;
+  padding: 0.35rem 0.85rem;
+  cursor: pointer;
+  border: 1px solid black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.small:hover,
+.small:focus {
+  background-color: var(--color-accent-light);
+  background-color: var(--color-muted-dark);
+}
+
+.small:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-muted);
+  outline-offset: 1px;
+}
+
+.small:disabled {
+  cursor: not-allowed;
+}
+
+/* Round button */
+.round {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 0.875rem;
+  border-radius: 9999px;
+  background-color: var(--color-accent);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text);
+  transition: background-color 0.3s;
+  padding: 0.25rem 0.625rem;
+}
+
+.round:hover,
+.round:focus {
+  background-color: var(--color-accent-light);
+}
+
+.round:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--color-accent-light);
+  outline-offset: 2px;
+}
+
+.round:disabled {
+  cursor: not-allowed;
+}
+
+/* Secondary button */
+.secondary {
+  display: inline-block;
+  /* font-size: 0.875rem; */
+  font-family: inherit;
+  font-size: 1.2rem;
+  border-radius: 9999px;
+  border: 2px solid var(--color-muted-dark);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  /* color: var(--color-muted-dark); */
+  color: var(--color-text);
+  transition: background-color 0.3s, color 0.3s;
+  padding: 0.75rem 1.2rem;
+  cursor: pointer;
+}
+
+.secondary:hover,
+.secondary:focus {
+  background-color: var(--color-muted-dark);
+  color: var(--color-text-alt);
+}
+
+.secondary:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--color-muted-light);
+  outline-offset: 2px;
+}
+
+.secondary:disabled {
+  cursor: not-allowed;
+}
+
+.active {
+  display: inline-block;
+  font-size: 1.2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 0.75rem 1.2rem;
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  cursor: pointer;
+  border: none;
+}
+
+.active:hover {
+  background-color: var(--color-accent-light);
+}
+
+.active:disabled {
+  cursor: not-allowed;
+}

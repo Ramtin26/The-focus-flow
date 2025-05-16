@@ -1,0 +1,80 @@
+@import "https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap";
+
+:root {
+  /* Backgrounds */
+  --color-background: #f5efe6; /* Soft beige */
+  --color-background-alt: #f0e9de; /* Slightly deeper beige for sections/cards */
+  --color-background-alt2: #cfc2ad80;
+
+  /* Surfaces */
+  --color-surface: #ffffff; /* Pure white for clean cards */
+  --color-surface-alt: #fbf8f3; /* Almost white, soft contrast */
+
+  /* Primary (actions, important elements) */
+  --color-primary: #5d8374; /* Muted green/teal */
+  --color-primary-light: #7aa295; /* Lighter version for hovers */
+  --color-primary-dark: #466258; /* Deeper for active states */
+
+  /* Accent (highlights, smaller pops) */
+  --color-accent: #f1c40f; /* Warm yellow */
+  --color-accent-light: #f7d84a; /* Softer yellow */
+  --color-accent-dark: #d4a30c; /* Richer yellow/gold */
+
+  /* Muted (borders, dividers) */
+  --color-muted: #cfc9ba; /* Light taupe */
+  --color-muted-light: #e0dbd0; /* Even lighter taupe */
+  --color-muted-dark: #b0a897; /* Slightly darker taupe */
+
+  /* Text */
+  --color-text: #3e4e4a; /* Soft charcoal */
+  --color-text-alt: #f5f5f5; /* Soft white*/
+  --color-text-light: #6e7d79; /* For less important text (e.g., placeholders) */
+  --color-input: #e0e0e0;
+  --color-inpu-focus: #cfd8dc;
+
+  /* Specific Elements */
+  --color-calendar: #2c3e50; /* Deep muted blue */
+  --color-calendar-light: #415a6b; /* Softer blue for hover states */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Winky Rough", sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+label {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color-input);
+  transition: all 0.2s;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-accent-light);
+  background-color: var(--color-inpu-focus);
+}

@@ -1,0 +1,68 @@
+.noAuth {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 5rem auto;
+}
+
+.noTask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin: 4rem auto;
+}
+
+.noTask span {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.taskNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0 1.5rem 0;
+  padding: 2rem 3.7rem;
+}
+
+.taskNav h2 {
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-left: 3.6rem;
+}
+
+.taskNav h2 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  aspect-ratio: 1;
+  background-color: var(--color-primary-light);
+  color: var(--color-surface-alt);
+  border-radius: 9999px;
+  line-height: 1.3;
+
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.taskSection {
+  margin: 0 3.5rem;
+}
+
+.taskSection .noMatch {
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.taskSection ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}

@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 0.2rem solid var(--color-muted);
+  padding: 0 5rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+
+  padding: 1rem 0;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--color-text);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav a:global(.active) {
+  color: var(--color-primary-light);
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: var(--color-accent-dark);
+  color: var(--color-surface);
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+}

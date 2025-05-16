@@ -1,0 +1,77 @@
+.noAuth {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 5rem auto;
+}
+
+.noTask {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 15rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.3rem;
+  margin: 2rem 7.5rem;
+  text-align: center;
+}
+
+.formContainer {
+  background-color: var(--color-muted);
+  margin: 3.5rem 30em 0 30rem;
+  padding: 1.5rem;
+  border-radius: 7px;
+}
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title,
+.desc,
+.date {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.time {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.time select {
+  font-family: inherit;
+  padding: 0.3rem;
+  border-radius: 7px;
+  background-color: var(--color-input);
+}
+
+.time select:focus {
+  outline: none;
+  background-color: var(--color-input-focus);
+}
+
+.time option {
+  background-color: var(--color-input-focus);
+  scroll-behavior: smooth;
+}
+
+label {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-text);
+}

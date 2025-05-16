@@ -1,0 +1,11 @@
+.app {
+  height: 100vh;
+  padding: 1rem 2.4rem;
+  position: relative;
+  overscroll-behavior-y: none;
+}
+
+.mainBody {
+  scroll-behavior: smooth;
+  padding-bottom: 3rem;
+}

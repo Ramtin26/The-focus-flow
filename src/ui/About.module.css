@@ -1,0 +1,41 @@
+.about {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 2rem;
+}
+
+.about h3 {
+  grid-column: 1 / -1;
+  text-transform: capitalize;
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.about .text {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about .text p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+.about .text p:first-of-type span {
+  font-size: 3rem;
+  background: linear-gradient(90deg, #5d8374, #f4a261);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+}
+
+.about img {
+  grid-column: 2;
+  align-self: start;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+}

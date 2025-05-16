@@ -1,0 +1,25 @@
+.home {
+  height: calc(100vh - 2rem);
+  background-image: linear-gradient(
+      0deg,
+      rgba(187, 166, 136, 0.7),
+      rgba(36, 42, 46, 0.8)
+    ),
+    url("./bg2.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.home h1 {
+  color: var(--color-surface);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  text-transform: capitalize;
+  font-size: 3.8rem;
+  margin-top: 15vh;
+  margin-bottom: 55px;
+  letter-spacing: 0.3rem;
+}

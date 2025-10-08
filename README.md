@@ -57,7 +57,7 @@ This means no external database or authentication API is required.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/focusflow.git
+git clone https://github.com/Ramtin26/The-focus-flow.git
 
 # Navigate to the project directory
 cd focusflow

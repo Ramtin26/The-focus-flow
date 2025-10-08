@@ -1,5 +1,7 @@
 # FocusFlow
 
+[![Repo](https://img.shields.io/badge/View%20on-GitHub-blue?logo=github)](https://github.com/Ramtin26/The-focus-flow)
+
 A small productivity app built with **React** and **Redux Toolkit** to help users manage their daily routines and tasks efficiently.
 
 ---
